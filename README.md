@@ -11,17 +11,23 @@ requests for buying and selling items and specify the quantity and price. Trader
 view their matched trades at any time. There are ten known items which the traders can trade in with their
 codes from 1 to 10. There will be a maximum of 5 traders (with codes from 1 to 5) who can log on to the system
 and work. One trader should work from one client at a time only. The functionalities of any client will be:
- Login to the System: The trader will execute the client, give the trader number and will be logged in.
+
+Login to the System: The trader will execute the client, give the trader number and will be logged in.
 After that he/she will have the following options in a menu. Several clients will login (from different
 terminals).
- Send Buy Request: The trader will send a buy request by stating the item code, the quantity and unit
+
+Send Buy Request: The trader will send a buy request by stating the item code, the quantity and unit
 price.
- Send Sell request: The trader will send a sell request by stating the item code, the quantity and unit
+
+Send Sell request: The trader will send a sell request by stating the item code, the quantity and unit
 price.
- View Order Status: The Trader can view the position of buy and sell orders in the system. This will
+
+View Order Status: The Trader can view the position of buy and sell orders in the system. This will
 display the current best sell (least price) and the best buy (max price) for each item and their quantities.
- View Trade Status: The trader can view his/her matched trades. This will provide the trader with the
+
+View Trade Status: The trader can view his/her matched trades. This will provide the trader with the
 details of what orders were matched, their quantities, prices and counterparty code.
+
 There will be only one server which will be running and perform the functions of order processing and trade
 matching in addition to acknowledging logins by clients and servicing their requests. The order processing will
 be as follows. There will be a buy and a sell order queue for each item. On receiving buy/sell order request from
