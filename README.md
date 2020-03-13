@@ -57,6 +57,6 @@ tested for more matches.
 The IP Address and Port number are accepted from the command line.
 Prototype for command line is as follows:
 
-Client: \<executable code\>\<Server IP Address\>\<Server Port number\>
+Client: \<executable code\> \<Server IP Address\> \<Server Port number\>
   
-Server: \<executable code\>\<Server Port number\>
+Server: \<executable code\> \<Server Port number\>
